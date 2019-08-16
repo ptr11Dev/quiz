@@ -113,7 +113,7 @@ h1 {
 .chart {
     position: absolute;
     top: 10vh;
-    width: 500px;
+    width: 98%;
     background-color: white;
     z-index: 1;
 }
@@ -161,6 +161,10 @@ footer {
 
     .answer {
         font-size: 1.7rem;
+    }
+
+    .chart {
+        width: 500px;
     }
 
 }

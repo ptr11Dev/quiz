@@ -250,7 +250,7 @@ class App extends Component {
           </div>
         )}
 
-        <footer>Piotr Kaczmarek</footer>
+        <footer>Created by Piotr Kaczmarek</footer>
       </div>
     );
   }
