@@ -164,3 +164,15 @@ footer {
     }
 
 }
+
+@media (min-width:1024px) {
+    .question {
+        min-width: 1024px;
+        font-size: 1.6rem;
+    }
+
+    .ico {
+        height: 110px;
+        width: 110px;
+    }
+}
