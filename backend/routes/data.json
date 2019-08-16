@@ -1,0 +1,77 @@
+[
+  {
+    "question": "The Walking Dead: Which of these characters does NOT appear in the comics?",
+    "answers": ["Daryl", "Rick", "Merle", "Tyreese"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The Walking Dead: What is the name of Negan’s group?",
+    "answers": ["Wolves", "Saviors", "Kingdom", "Termites"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Stranger Things: What happened right at the end of Stranger Things season three?",
+    "answers": [
+      "Hopper is shown next to a machine about to die",
+      "Millie moves away along with the byers",
+      "Hopper is killed by a demogorgon",
+      "A demogorgon is shown killing a man"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Stranger Things: What colour cat is explained in the Russian code?",
+    "answers": ["White cat", "Gold cat", "Grey cat", "Black cat"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Stranger Things: Who did Dustin dance with in the Snow ball?",
+    "answers": ["Nancy", "Millie", "Max", "It didn't say"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Sherlock Holmes: What does Sherlock shout before he shoots Magnussen in 'The Last Vow'?",
+    "answers": [
+      "I'm not a hero!",
+      "Merry Christmas!",
+      "I'm a high-functioning sociopath!",
+      "*To John* Give my love to Mary!"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Sherlock Holmes: What is the name of Sherlock's childhood friend in 'The Final Problem'?",
+    "answers": ["Victor", "George", "Arthur", "Martin"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Prison Break: What are the names of the two brothers (main characters)?",
+    "answers": [
+      "Wentworth Scofield and Dominic Burrows",
+      "Michael Scofield and Lincoln Burrows",
+      "Michael and Lincoln Scofield",
+      "Michael Burrows and Lincoln Scofield"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Prison Break: What is C-Note's real name in the show?",
+    "answers": [
+      "Benjamin Charles Hale",
+      "Benjamin Donovan",
+      "Banjamin Christopher Friedrich",
+      "Benjamin Miles Franklin"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Prison Break: Who let the door open and let the prisoners escape?",
+    "answers": [
+      "Otto Fibonacci",
+      "Sara Tancredi",
+      "Maricruz Delgado",
+      "Michelle Taylor"
+    ],
+    "correctAnswer": 1
+  }
+]

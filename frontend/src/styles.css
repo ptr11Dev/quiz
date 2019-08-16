@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap&subset=latin-ext');
+/* font-family: 'Lexend Deca', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-height: 100vh;
+    max-width: 1024px;
+    margin: 0 auto;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1 {
+    padding: 2.5vh 0 1.5vh 0;
+}
+
+.tip {
+    text-align: center;
+    min-height: 9vh;
+    font-size: 1em;
+    padding: 2vh 2vw 0 2vw;
+}
+
+.corrects {
+    color: #00897b
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 13vh 13vh 11vh 11vh 11vh 11vh;
+    grid-template-areas:
+        'ico1 ico1 ico2 ico2 ico3 ico3'
+        'question question question question question question'
+        'answer1 answer1 answer1 answer1 answer1 answer1'
+        'answer2 answer2 answer2 answer2 answer2 answer2'
+        'answer3 answer3 answer3 answer3 answer3 answer3'
+        'answer4 answer4 answer4 answer4 answer4 answer4'
+}
+
+.call {
+    grid-area: ico1;
+}
+
+.half {
+    grid-area: ico2;
+}
+
+.crowd {
+    grid-area: ico3;
+}
+
+.call,
+.half,
+.crowd {
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+    outline: none
+}
+
+.ico {
+    color: #00564d;
+    height: 70px;
+    width: 70px;
+}
+
+.question {
+    grid-area: question;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 0 4%;
+}
+
+
+[data-answer='0'] {
+    grid-area: answer1;
+}
+
+[data-answer='1'] {
+    grid-area: answer2
+}
+
+[data-answer='2'] {
+    grid-area: answer3
+}
+
+[data-answer='3'] {
+    grid-area: answer4
+}
+
+.answer {
+    height: 10vh;
+    font-size: 1.2em;
+    margin: 0 2vw;
+    border-radius: 30px;
+    color: white;
+    background-color: #00897b;
+    border: 2px solid #363636;
+    outline: none;
+}
+
+.chart {
+    position: absolute;
+    top: 10vh;
+    width: 500px;
+    background-color: white;
+    z-index: 1;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4vh;
+    line-height: 4vh;
+    text-align: center;
+    background-color: #363636;
+    color: white;
+}
+
+@media (min-width:768px) and (orientation:portrait) {
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .ico {
+        height: 110px;
+        width: 110px;
+    }
+
+    .tip {
+        font-size: 1.4rem;
+        padding: 1.5vh 5vw;
+    }
+
+    .question {
+        font-size: 1.8rem;
+        padding-top: 2vh;
+    }
+
+    .gameboard {
+        grid-template-rows: 10vh 13vh 12vh 12vh 12vh 12vh;
+    }
+
+    .answer {
+        font-size: 1.7rem;
+    }
+
+}
