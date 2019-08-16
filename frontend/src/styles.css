@@ -163,10 +163,12 @@ footer {
         font-size: 1.7rem;
     }
 
+}
+
+@media(min-width:768px) {
     .chart {
         width: 500px;
     }
-
 }
 
 @media (min-width:1024px) {
