@@ -21,7 +21,6 @@ There are few media queries included in this app.
 ![Example screenshot](./img/360x640.png)
 ![Example screenshot](./img/360x640chart.png)
 ![Example screenshot](./img/768x1024.png)
-![Example screenshot](./img/1024x1366.png)
 
 ## Technologies
 
