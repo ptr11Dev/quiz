@@ -51,6 +51,8 @@ $ cd ../backend
 $ node app.js (or nodemon app.js if you are using nodemon)
 ```
 
+Now you can run quiz in your browser using address `http://localhost:9000/`.
+
 ## Contact
 
 Created by [Piotr Kaczmarek](piotrkaczmarek.dev@gmail.com) - feel free to contact!
