@@ -1,18 +1,5 @@
-// import React, { Component } from "react";
-import Chart from "./Chart";
-
-// class Draggable extends Component {
-//   state = {};
-//   render() {
-//     return (
-//
-//     );
-//   }
-// }
-
-// export default Draggable;
-
 import React from "react";
+import Chart from "./Chart";
 import Draggable from "react-draggable";
 
 class DragChart extends React.Component {
